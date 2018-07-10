@@ -1,0 +1,7 @@
+task:
+  name: build (linux)
+  container:
+    dockerfile: .ci/docker/Dockerfile.linux
+  build_script:
+    - cd rider
+    - ./gradlew --info --stacktrace buibackend.gradle:67ldPlugin
