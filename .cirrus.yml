@@ -1,4 +1,4 @@
 windows_build_task:
     windows_container:
-        image: openjdk8:jdk-windowsservercore-ltsc2016
+        image: openjdk:8-windowsservercore-ltsc2016
     script: ./build.ps1
