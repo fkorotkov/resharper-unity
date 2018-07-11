@@ -1,7 +1,4 @@
-task:
-  name: build (linux)
-  container:
-    dockerfile: .ci/docker/Dockerfile.linux
-  build_script:
-    - cd rider
-    - ./gradlew --info --stacktrace buibackend.gradle:67ldPlugin
+windows_build_task:
+    windows_container:
+        image: openjdk8-jdk-windowsservercore-ltsc2016
+    script: ./build.ps1
