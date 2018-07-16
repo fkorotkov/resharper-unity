@@ -1,4 +1,4 @@
 windows_build_task:
     windows_container:
-        image: ivanpashchenko/rider-plugins
+        image: ivanpashchenko/rider-plugins:latest
     script: ./build.ps1
