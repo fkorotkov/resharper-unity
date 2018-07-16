@@ -1,4 +1,4 @@
 windows_build_task:
     windows_container:
-        dockerfile: .ci/docker/Dockerfile.windows
+        image: ivanpashchenko/rider-plugins
     script: ./build.ps1
